@@ -10,10 +10,41 @@
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     width: 175px;
-    margin-right: 7%;
-    margin-left: 7%;
+    
 } 
+
+.upperLeft {
+    grid-area: upL;
+}
+.upperRight {
+    grid-area: upR;
+}
+.centerLeft {
+    grid-area: midL;
+}
+.centerRight {
+    grid-area: midR;
+}
+.bottomLeft {
+    grid-area: loL;
+}
+.bottomRight {
+    grid-area: loR;
+}
 
 .grid-container {
     display: grid;
+    grid-template-areas: 
+        'upL upR'
+        'midL midR'
+        'loL loR';
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+}
+.gridItem {
+    border: solid;
+    border-radius: 5px;
+    margin: 15px 15px 15px 15px;
+    text-align: center;
+    padding: 20px 0;
 }
