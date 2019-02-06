@@ -2,14 +2,23 @@
 <html>
   
   <head>
+    <title>Adam's ISC325 Page</title>
+    
+    <!--STYLES-->
     <link rel="stylesheet" 
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet"
           href="../style.css">
+
+    <!--SCRIPTS/CDNS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" 
+            src="../script.js"></script>
+      
+    <!--METADATA-->
     <meta charset="UTF-16">
-    <title>Adam's ISC325 Page</title>
+    
   </head>
   
   <body>
@@ -45,29 +54,39 @@
       Here are some of my favorite desserts to make!
     </h1>
     <div class="grid-container">
-      <div class="gridItem upperLeft">
-        <div>shown pic</div>
-        <div>hidden desc</div>
+
+      <div id="upperLeft" class="gridItem upperLeft">
+        <div id="upLPicture" style="display: block;">shown pic</div>
+        <div id="upLDescription" style="display: none;">
+          <h2>Fudge</h2>
+        </div>
       </div>
-      <div class="gridItem upperRight">
-        <div>shown pic</div>
-        <div display="hidden">hidden desc</div>
+      
+      <div id="upperRight" class="gridItem upperRight">
+          <div id="upRPicture" style="display: block;">shown pic</div>
+          <div id="upRDescription" style="display: none;">
+          <h3>Mama Adam's Stick in the Mud Mississippi River Snacks</h3>
+        </div>
       </div>
+      
       <div class="gridItem centerLeft">
         <div>shown pic</div>
-        <div>hidden desc</div>
+        <div style="display: none;">hidden desc</div>
       </div>
+      
       <div class="gridItem centerRight">
         <div>shown pic</div>
-        <div>hidden desc</div>
+        <div style="display: none;">hidden desc</div>
       </div>
+      
       <div class="gridItem bottomLeft">
         <div>shown pic</div>
-        <div>hidden desc</div>
+        <div style="display: none;">hidden desc</div>
       </div>
+      
       <div class="gridItem bottomRight">
         <div>shown pic</div>
-        <div>hidden desc</div>
+        <div style="display: none;">hidden desc</div>
       </div>
     </div>
     
